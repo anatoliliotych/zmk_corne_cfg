@@ -69,10 +69,10 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans      &trans  &trans  &trans
+&trans  &trans     &trans        &trans            &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans        &trans            &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans            &trans          &trans      &trans  &trans  &trans
             >;
         };
 
