@@ -60,10 +60,10 @@
 
         nums {
             bindings = <
-&mt LEFT_PARENTHESIS RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5      &none   &none                            &none                              &none                    &none                   &none
-&kp COMMA                               &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0      &none   &hmr RIGHT_SHIFT LG(LEFT_ARROW)  &hmr RIGHT_COMMAND LG(DOWN_ARROW)  &hmr RIGHT_ALT UP_ARROW  &hmr RCTRL RIGHT_ARROW  &none
-&kp KP_DOT                              &kp KP_PLUS      &kp KP_MINUS     &kp KP_MULTIPLY  &kp KP_DIVIDE    &kp KP_EQUAL         &none   &none                            &none                              &none                    &none                   &none
-                                                                          &trans           &trans           &trans               &trans  &trans                           &trans
+&mt LEFT_PARENTHESIS RIGHT_PARENTHESIS  &kp KP_NUMBER_1         &kp KP_NUMBER_2            &kp KP_NUMBER_3                &kp KP_NUMBER_4              &kp KP_NUMBER_5      &none   &none                            &none                              &none                    &none                   &none
+&kp COMMA                               &hml LCTRL KP_NUMBER_6  &hml LEFT_ALT KP_NUMBER_7  &hml LEFT_COMMAND KP_NUMBER_8  &hml LEFT_SHIFT KP_NUMBER_9  &kp KP_NUMBER_0      &none   &hmr RIGHT_SHIFT LG(LEFT_ARROW)  &hmr RIGHT_COMMAND LG(DOWN_ARROW)  &hmr RIGHT_ALT UP_ARROW  &hmr RCTRL RIGHT_ARROW  &none
+&kp KP_DOT                              &kp KP_PLUS             &kp KP_MINUS               &kp KP_MULTIPLY                &kp KP_DIVIDE                &kp KP_EQUAL         &none   &none                            &none                              &none                    &none                   &none
+                                                                                           &trans                         &trans                       &trans               &trans  &trans                           &trans
             >;
         };
 
