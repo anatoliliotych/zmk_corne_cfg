@@ -56,18 +56,18 @@
         default {
             bindings = <
 &kp ESC    &kp Q         &kp W            &kp E                &kp R              &kp T          &kp Y      &kp U               &kp I                 &kp O             &kp P                 &kp LEFT_BRACKET
-&kp GLOBE  &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G          &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hml RIGHT_ALT L  &hmr RCTRL SEMICOLON  &kp SQT
-&kp GRAVE  &kp Z         &kp X            &kp C                &kp V              &kp B          &kp N      &kp M               &kp COMMA             &kp PERIOD        &mt QUESTION SLASH    &kp RIGHT_BRACKET
-                                          &kp TAB              &mo 2              &kp SPACE      &kp ENTER  &mo 1               &mt KP_DOT KP_COMMA
+&kp GLOBE  &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G          &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RCTRL SEMICOLON  &kp SQT
+&kp GRAVE  &kp Z         &kp X            &kp C                &kp V              &kp B          &kp N      &kp M               &kp COMMA             &kp PERIOD        &hmr QUESTION SLASH   &kp RIGHT_BRACKET
+                                          &kp TAB              &mo 2              &kp SPACE      &kp ENTER  &mo 1               &hmr KP_DOT KP_COMMA
             >;
         };
 
         nums {
             bindings = <
-&mt LEFT_PARENTHESIS RIGHT_PARENTHESIS  &kp KP_NUMBER_1         &kp KP_NUMBER_2            &kp KP_NUMBER_3                &kp KP_NUMBER_4              &kp KP_NUMBER_5      &none   &none                            &none                              &none                    &none                   &none
-&kp COMMA                               &hml LCTRL KP_NUMBER_6  &hml LEFT_ALT KP_NUMBER_7  &hml LEFT_COMMAND KP_NUMBER_8  &hml LEFT_SHIFT KP_NUMBER_9  &kp KP_NUMBER_0      &none   &hmr RIGHT_SHIFT LG(LEFT_ARROW)  &hmr RIGHT_COMMAND LG(DOWN_ARROW)  &hmr RIGHT_ALT UP_ARROW  &hmr RCTRL RIGHT_ARROW  &none
-&kp KP_DOT                              &kp KP_PLUS             &kp KP_MINUS               &kp KP_MULTIPLY                &kp KP_DIVIDE                &kp KP_EQUAL         &none   &none                            &none                              &none                    &none                   &none
-                                                                                           &trans                         &trans                       &trans               &trans  &trans                           &trans
+&hml LEFT_PARENTHESIS RIGHT_PARENTHESIS  &kp KP_NUMBER_1         &kp KP_NUMBER_2            &kp KP_NUMBER_3                &kp KP_NUMBER_4              &kp KP_NUMBER_5      &none   &none                            &none                              &none                    &none                   &none
+&kp COMMA                                &hml LCTRL KP_NUMBER_6  &hml LEFT_ALT KP_NUMBER_7  &hml LEFT_COMMAND KP_NUMBER_8  &hml LEFT_SHIFT KP_NUMBER_9  &kp KP_NUMBER_0      &none   &hmr RIGHT_SHIFT LG(LEFT_ARROW)  &hmr RIGHT_COMMAND LG(DOWN_ARROW)  &hmr RIGHT_ALT UP_ARROW  &hmr RCTRL RIGHT_ARROW  &none
+&kp KP_DOT                               &kp KP_PLUS             &kp KP_MINUS               &kp KP_MULTIPLY                &kp KP_DIVIDE                &kp KP_EQUAL         &none   &none                            &none                              &none                    &none                   &none
+                                                                                            &trans                         &trans                       &trans               &trans  &trans                           &trans
             >;
         };
 
