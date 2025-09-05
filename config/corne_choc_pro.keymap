@@ -67,10 +67,10 @@
 
         nums_and_syms {
             bindings = <
-&hml LESS_THAN GREATER_THAN  &kp NUMBER_1         &kp NUMBER_2            &kp NUMBER_3                &kp NUMBER_4              &kp N5        &none  &none  &hmr KP_RIGHT_PARENTHESIS KP_LEFT_PARENTHESIS  &hmr RIGHT_BRACKET LEFT_BRACKET  &hmr RIGHT_BRACE LEFT_BRACE        &kp PERCENT              &kp CARET               &kp BACKSLASH
-&kp KP_COMMA                 &hml LCTRL NUMBER_6  &hml LEFT_ALT NUMBER_7  &hml LEFT_COMMAND NUMBER_8  &hml LEFT_SHIFT NUMBER_9  &kp NUMBER_0  &none  &none  &none                                          &hmr RIGHT_SHIFT LG(LEFT_ARROW)  &hmr RIGHT_COMMAND LG(DOWN_ARROW)  &hmr RIGHT_ALT UP_ARROW  &hmr RCTRL RIGHT_ARROW  &none
-&kp KP_DOT                   &kp KP_PLUS          &kp KP_MINUS            &kp KP_MULTIPLY             &kp KP_DIVIDE             &kp KP_EQUAL                &none                                          &none                            &none                              &none                    &none                   &none
-                                                                          &trans                      &trans                    &trans                      &trans                                         &trans                           &trans
+&hml LESS_THAN GREATER_THAN  &kp NUMBER_1         &kp NUMBER_2            &kp NUMBER_3                &kp NUMBER_4              &kp N5        &none  &none  &hmr RIGHT_PARENTHESIS LEFT_PARENTHESIS  &hmr RIGHT_BRACKET LEFT_BRACKET  &hmr RIGHT_BRACE LEFT_BRACE  &kp PERCENT              &kp CARET               &kp BACKSLASH
+&kp KP_COMMA                 &hml LCTRL NUMBER_6  &hml LEFT_ALT NUMBER_7  &hml LEFT_COMMAND NUMBER_8  &hml LEFT_SHIFT NUMBER_9  &kp NUMBER_0  &none  &none  &none                                    &hmr RIGHT_SHIFT LEFT_ARROW      &hmr RIGHT_COMMAND DOWN      &hmr RIGHT_ALT UP_ARROW  &hmr RCTRL RIGHT_ARROW  &none
+&kp KP_DOT                   &kp KP_PLUS          &kp KP_MINUS            &kp KP_MULTIPLY             &kp KP_DIVIDE             &kp KP_EQUAL                &none                                    &none                            &none                        &none                    &none                   &none
+                                                                          &trans                      &trans                    &trans                      &trans                                   &trans                           &trans
             >;
 
             label = "nums";
@@ -79,7 +79,7 @@
         service {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &kp F1      &kp F2        &kp F3        &kp F4            &kp F5                &kp F6
-&none       &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_3))  &none         &none         &none         &none  &none  &kp F7      &kp F8        &kp F9        &kp F10           &kp F11               &kp F12
+&kp CAPS    &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_3))  &none         &none         &none         &none  &none  &kp F7      &kp F8        &kp F9        &kp F10           &kp F11               &kp F12
 &none       &none                 &none                 &none         &none         &none                       &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
                                                         &trans        &trans        &trans                      &trans      &trans        &trans
             >;
