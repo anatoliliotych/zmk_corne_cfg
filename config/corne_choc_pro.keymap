@@ -38,7 +38,7 @@
             hold-trigger-key-positions = <8 9 10 11 12 13 22 23 24 25 26 27 39 38 37 36 34 35 43 44 45>;
             quick-tap-ms = <400>;
             hold-trigger-on-release;
-            require-prior-idle-ms = <400>;
+            require-prior-idle-ms = <0>;
         };
     };
 
@@ -69,7 +69,7 @@
             bindings = <
 &hml LESS_THAN GREATER_THAN  &kp NUMBER_1         &kp NUMBER_2            &kp NUMBER_3                &kp NUMBER_4              &kp N5        &none  &none  &hmr RIGHT_PARENTHESIS LEFT_PARENTHESIS  &hmr RIGHT_BRACKET LEFT_BRACKET  &hmr RIGHT_BRACE LEFT_BRACE  &kp PERCENT              &kp CARET               &kp BACKSLASH
 &kp KP_COMMA                 &hml LCTRL NUMBER_6  &hml LEFT_ALT NUMBER_7  &hml LEFT_COMMAND NUMBER_8  &hml LEFT_SHIFT NUMBER_9  &kp NUMBER_0  &none  &none  &none                                    &hmr RIGHT_SHIFT LEFT_ARROW      &hmr RIGHT_COMMAND DOWN      &hmr RIGHT_ALT UP_ARROW  &hmr RCTRL RIGHT_ARROW  &none
-&kp KP_DOT                   &kp KP_PLUS          &kp KP_MINUS            &kp KP_MULTIPLY             &kp KP_DIVIDE             &kp KP_EQUAL                &none                                    &none                            &none                        &none                    &none                   &none
+&kp KP_DOT                   &kp PLUS             &kp MINUS               &kp KP_MULTIPLY             &kp SLASH                 &kp EQUAL                   &none                                    &none                            &none                        &none                    &none                   &none
                                                                           &trans                      &trans                    &trans                      &trans                                   &trans                           &trans
             >;
 
