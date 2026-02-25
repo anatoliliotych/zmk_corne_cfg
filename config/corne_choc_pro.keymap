@@ -62,7 +62,7 @@
                                                  &mo 2                &kp TAB            &kp SPACE                     &kp ENTER     &kp BACKSPACE       &mo 1
             >;
 
-            label = "qwerty";
+            label = "qwe";
         };
 
         nums_and_syms {
@@ -73,7 +73,7 @@
                                                                           &trans                      &trans                    &trans                      &trans                                   &trans                           &trans
             >;
 
-            label = "nums";
+            label = "num";
         };
 
         service {
@@ -84,7 +84,7 @@
                                                         &trans        &trans        &trans                              &trans      &trans        &trans
             >;
 
-            label = "serv";
+            label = "ser";
         };
     };
 };
